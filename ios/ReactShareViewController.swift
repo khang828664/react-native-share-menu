@@ -59,10 +59,10 @@ class ReactShareViewController: ShareViewController, RCTBridgeDelegate, ReactSha
   }
 
   func openApp() {
-    self.openHostApp()
+   // self.openHostApp()
   }
 
   func continueInApp(with items: [NSExtensionItem], and extraData: [String:Any]?) {
-    handlePost(items, extraData: extraData)
+   // handlePost(items, extraData: extraData)
   }
 }
